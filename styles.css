@@ -64,6 +64,11 @@ li a{
   display: block;
   line-height: 1.6rem;
 } 
+.cavesa{
+  background-color: #273b47;
+  overflow: hidden;
+  display: none;
+}
 figure{
   width: 80%;
   height:auto;

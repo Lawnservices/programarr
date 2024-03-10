@@ -1,0 +1,22 @@
+#demo {
+  color: #003349;
+  margin-left: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.conten {
+  width: 80%;
+  height: auto;
+  background-color: #f6f6f6;
+  margin: auto;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.conten h2 {
+  color: #333;
+  padding: 16px 16px;
+}
+.conten p {
+  padding: 0px 30px 30px 30px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px 30px 20px 0px;
+}
