@@ -3,6 +3,10 @@
      display: none;
 
   }
+  #informe{
+    display: none;
+  }
+  
   .cavesa{
     display: block;
     height: 100px;

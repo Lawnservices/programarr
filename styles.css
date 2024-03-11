@@ -11,6 +11,13 @@ body {
 html{
   scroll-behavior: smooth;
 }
+#clase{
+  display: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  height: 60px;
+}
 header{
   padding: 0;
   margin: 0;
