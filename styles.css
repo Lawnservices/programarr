@@ -7,11 +7,23 @@ html{
   scroll-behavior: smooth;
 }
 #clase{
+   
   display: none;
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
   height: 60px;
+}
+.informe{
+  width: 100%;
+  height: 60px;
+  background-color: #116365;
+}
+.informe p{
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
 }
 header{
   padding: 0;
@@ -24,17 +36,7 @@ header{
   position: sticky;
   top:0; 
 }
-.informe{
-  width: 100%;
-  height: 100px;
-  background-color: #116365;
-}
-.informe p{
-  text-align: center;
-  font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff;
-}
+ 
 ul{
   width:80%;
   height: 100px;
@@ -48,12 +50,18 @@ li{
 }
 li a{
   margin-left: 10px;
-  padding: 30px 30px;
+  padding: 8px 16px;
   line-height: 80px;
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-decoration: none;
+  border-radius: .4rem;
+}
+li a:hover{
+  background-color:yellow;
+  color: #003356;
+  border-radius: .4rem;
 }
 .descri{
   margin-top: 240px;
@@ -78,8 +86,8 @@ figure{
   margin-right: auto;
 }
 figure img{
-  width:400px;
-  height:400px;
+  width:160px;
+  height:160px;
   margin-left: auto;
   margin-right: auto;
   border: none;

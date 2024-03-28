@@ -105,10 +105,5 @@ document.addEventListener("scroll", () => {
   }
 });
 
-function tiempo() {
-  document.getElementById("videos").style.color = "#fff";
-
-  document.getElementById("mejor").style.color = "#fff";
-  document.getElementById("informe").style.backgroundColor = "#003356";
-}
+ 
  
