@@ -1,12 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-    font-family: lato,sans-serif;
-    font-size: 16px;
-    color: #273b47;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+ 
 }
 html{
   scroll-behavior: smooth;
@@ -24,7 +19,7 @@ header{
   overflow: hidden;
   width: 100%;
   height: 100px;
-  background-color: #003349;
+  background-color: #003356;
   position: -webkit-sticky;
   position: sticky;
   top:0; 
@@ -32,7 +27,7 @@ header{
 .informe{
   width: 100%;
   height: 100px;
-  background-color: #333;
+  background-color: #116365;
 }
 .informe p{
   text-align: center;

@@ -93,14 +93,14 @@ document.addEventListener("scroll", () => {
     document.getElementById("mejor").innerHTML =
       "Te doy las Gracias por visitar mi Página web.";
     document.getElementById("clase").style.display = "block";
-    document.getElementById("clase").style.backgroundColor = "#000";
+    document.getElementById("clase").style.backgroundColor = "#003356";
     document.getElementById("mejor").style.color = "#fff";
     
   } else {
     header.style.backgroundColor = "#003349";
     videos.style.color = "#fff";
     document.getElementById("mejor").innerHTML =
-      "La mejor manera que tenemos para aprender es practicar y practicar.";
+      "La mejor manera de aprender es practicar y practicar.";
     document.getElementById("clase").style.display = "none";    
   }
 });
@@ -109,6 +109,6 @@ function tiempo() {
   document.getElementById("videos").style.color = "#fff";
 
   document.getElementById("mejor").style.color = "#fff";
-  document.getElementById("informe").style.backgroundColor = "#333";
+  document.getElementById("informe").style.backgroundColor = "#003356";
 }
-setInterval(tiempo, 4000);
+ 
