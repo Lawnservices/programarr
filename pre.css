@@ -1,0 +1,20 @@
+.elemento{
+  background-color: #f6f6f6;
+  padding: 16px 16px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  border-radius: .4rem;
+}
+.elemento  p{
+  color: #003349;
+  font-size: 18px;
+  padding:2px 2px;
+   
+}
+#mejor{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+} 
+#meme{
+  font-size: x-large;
+  color: green;
+}
