@@ -95,7 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
       header.style.backgroundColor = "#003356";
       videos.style.color = "#fff";
       document.getElementById("mejor").innerHTML =
-        "La mejor manera de aprender es practicar y practicar.";
+        "La manera de aprender es practicar";
     }
+
+    
   });
 });

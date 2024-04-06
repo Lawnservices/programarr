@@ -1,0 +1,24 @@
+.mismo{
+  width: 100%;
+  height: auto;
+  background-color: #f6f6f6;
+}
+.mismo a{
+  width: auto;
+  color: green;
+  font-size:18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 12px 12px;
+  display: block;
+  margin-bottom: 20px;
+}
+b{
+  color:tomato;
+}
+a{
+  color:rgb(241, 108, 108);
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight:500;
+}
+ 

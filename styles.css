@@ -20,7 +20,8 @@ html{
   background-color: #116365;
 }
 .informe p{
-  text-align: center;
+  text-align:left;
+  margin-left: 20px;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
