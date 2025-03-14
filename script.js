@@ -1,103 +1,24 @@
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("boton1").addEventListener("click", function () {
-    document.getElementById("boton1").style.color = "yellow";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton6").style.color = "#fff";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton2").addEventListener("click", function () {
-    document.getElementById("boton2").style.color = "yellow";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton6").style.color = "#fff";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton3").addEventListener("click", function () {
-    document.getElementById("boton3").style.color = "yellow";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton6").style.color = "#fff";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton4").addEventListener("click", function () {
-    document.getElementById("boton4").style.color = "yellow";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton6").style.color = "#fff";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton5").addEventListener("click", function () {
-    document.getElementById("boton5").style.color = "yellow";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton6").style.color = "#fff";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton6").addEventListener("click", function () {
-    document.getElementById("boton6").style.color = "yellow";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton7").addEventListener("click", function () {
-    document.getElementById("boton7").style.color = "yellow";
-    document.getElementById("boton6").style.color = "#fff";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton8").style.color = "#fff";
-  });
-  document.getElementById("boton8").addEventListener("click", function () {
-    document.getElementById("boton8").style.color = "yellow";
-    document.getElementById("boton7").style.color = "#fff";
-    document.getElementById("boton1").style.color = "#fff";
-    document.getElementById("boton2").style.color = "#fff";
-    document.getElementById("boton3").style.color = "#fff";
-    document.getElementById("boton4").style.color = "#fff";
-    document.getElementById("boton5").style.color = "#fff";
-    document.getElementById("boton6").style.color = "#fff";
-  });
-  //final
+document.addEventListener('DOMContentLoaded', function(){
 
-   
-  const coloress = document.getElementById("videos");
+ const botones = ['boton1','boton2','boton3','boton4','boton5','boton6','boton7','boton8'];
 
-  document.addEventListener("scroll", () => {
-    var scroll_position = window.scrollY;
-    if (scroll_position > 400) {
-       
-      coloress.style.color = "yellow";
-    } else {
-      header.style.backgroundColor = "#003356";
-      videos.style.color = "#fff";
-      document.getElementById("mejor").innerHTML =
-        "La manera de aprender es practicar";
-    }
+ let botonActivo = null;
 
-    
-  });
+ botones.forEach(id =>{
+      const boton = document.getElementById(id);
+      if (boton){
+      boton.addEventListener('click', function(){
+
+      if(botonActivo){
+        botonActivo.style.color = '#fff'
+      }
+      boton.style.color = 'yellow'
+
+      botonActivo = boton;
+    });
+  }
+ });
+
+
+
 });
